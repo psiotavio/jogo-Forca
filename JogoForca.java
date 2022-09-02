@@ -2,12 +2,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class JogoForca {
+   public static Scanner in = new Scanner(System.in);
     public static void main (String[] args) {
         System.out.println("===============");
         System.out.println(" Jogo da Forca ");
         System.out.println("===============");
-
-        Scanner in = new Scanner(System.in);
 
 
         Random rnd = new Random();
