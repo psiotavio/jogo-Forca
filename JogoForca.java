@@ -20,6 +20,10 @@ public class JogoForca {
             "JABUTICABA",
             "BANANA",
             "PESSEGO",
+            "OVO",
+            "MELÃO", 
+            "PEPINO", 
+            "ABOBORA"
         };
 
         int indicePalavraSorteada = rnd.nextInt(bancoPalavras.length);
