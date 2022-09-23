@@ -1,15 +1,12 @@
-import java.util.Random;
 import java.util.Scanner;
 
 public class JogoForca {
-   public static Scanner in = new Scanner(System.in);
     public static void main (String[] args) {
         System.out.println("===============");
         System.out.println(" Jogo da Forca ");
         System.out.println("===============");
 
-
-        Random rnd = new Random();
+        Scanner in = new Scanner(System.in);
 
         // Configurar jogo
         String[] bancoPalavras = {
@@ -19,13 +16,9 @@ public class JogoForca {
             "JABUTICABA",
             "BANANA",
             "PESSEGO",
-            "OVO",
-            "MELÃO", 
-            "PEPINO", 
-            "ABOBORA"
         };
 
-        int indicePalavraSorteada = rnd.nextInt(bancoPalavras.length);
+        int indicePalavraSorteada = 2;
         int chancesRestantes = 10;
         String palavraSorteada = bancoPalavras[indicePalavraSorteada];
         int tamPalavraSorteada = palavraSorteada.length();
